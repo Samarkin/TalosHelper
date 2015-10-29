@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="755" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tb0-BW-R4b">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tb0-BW-R4b">
                                 <rect key="frame" x="20" y="280" width="560" height="300"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vOM-ED-0Sr">
@@ -176,19 +176,10 @@
                                 </subviews>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="h93-lE-9vO"/>
+                                    <constraint firstAttribute="height" constant="300" id="h93-lE-9vO"/>
                                 </constraints>
                             </stackView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="1000" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="OCq-6j-rIe">
-                                <rect key="frame" x="20" y="84" width="483" height="30"/>
-                                <animations/>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vQ9-ky-ZYz"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-DR-orF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-DR-orF">
                                 <rect key="frame" x="523" y="84" width="57" height="30"/>
                                 <animations/>
                                 <state key="normal" title="&lt; delete"/>
@@ -196,24 +187,43 @@
                                     <action selector="backspaceClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6kF-Jy-bWp"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lmf-AA-sj3">
+                                <rect key="frame" x="20" y="84" width="495" height="188"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTN-W2-KVB">
+                                <rect key="frame" x="546" y="122" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="clearClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cXo-HD-qzQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vzy-DR-orF" firstAttribute="leading" secondItem="OCq-6j-rIe" secondAttribute="trailing" constant="20" id="Hhe-qd-WnD"/>
-                            <constraint firstItem="Tb0-BW-R4b" firstAttribute="top" secondItem="OCq-6j-rIe" secondAttribute="bottom" priority="999" constant="20" id="O2f-E0-pQ7"/>
+                            <constraint firstItem="Tb0-BW-R4b" firstAttribute="top" secondItem="lmf-AA-sj3" secondAttribute="bottom" constant="8" id="BDV-lA-GTH"/>
+                            <constraint firstItem="vzy-DR-orF" firstAttribute="leading" secondItem="lmf-AA-sj3" secondAttribute="trailing" constant="8" id="MU6-BO-HE0"/>
                             <constraint firstItem="vzy-DR-orF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="QVc-al-Fgs"/>
+                            <constraint firstItem="RTN-W2-KVB" firstAttribute="trailing" secondItem="vzy-DR-orF" secondAttribute="trailing" id="Svz-y9-zBn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tb0-BW-R4b" secondAttribute="trailing" id="T6l-tB-Fov"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="OCq-6j-rIe" secondAttribute="leading" id="UCj-xs-F5T"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Tb0-BW-R4b" secondAttribute="leading" id="Uw0-rq-zL9"/>
+                            <constraint firstItem="lmf-AA-sj3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ave-pd-Qhj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vzy-DR-orF" secondAttribute="trailing" id="cEH-6P-6TY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tb0-BW-R4b" secondAttribute="bottom" constant="20" id="g1m-m9-V5I"/>
-                            <constraint firstItem="OCq-6j-rIe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ys8-E7-dl9"/>
+                            <constraint firstItem="RTN-W2-KVB" firstAttribute="top" secondItem="vzy-DR-orF" secondAttribute="bottom" constant="8" id="mjY-du-MYL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lmf-AA-sj3" secondAttribute="leading" id="yOs-0z-MZ8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Talos Helper" id="ip9-Tu-OVY"/>
                     <connections>
-                        <outlet property="textField" destination="OCq-6j-rIe" id="Ani-7A-Hie"/>
+                        <outlet property="clearButton" destination="RTN-W2-KVB" id="Ym7-0P-uTE"/>
+                        <outlet property="textView" destination="lmf-AA-sj3" id="ldb-HK-StV"/>
                         <outletCollection property="buttons" destination="ocF-KR-eeT" collectionClass="NSMutableArray" id="K2b-3w-V0Y"/>
                         <outletCollection property="buttons" destination="kt9-d3-M9r" collectionClass="NSMutableArray" id="bGd-bl-5cM"/>
                         <outletCollection property="buttons" destination="ecl-qd-q6U" collectionClass="NSMutableArray" id="MwT-Vf-LLz"/>
