@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         let text = NSMutableAttributedString(string: decodedText)
         text.appendAttributedString(hex)
         textView.attributedText = text
+        textView.font = UIFont.systemFontOfSize(15)
         clearButton.hidden = decodedText.characters.count == 0 && hexCharacters == 0
     }
 
