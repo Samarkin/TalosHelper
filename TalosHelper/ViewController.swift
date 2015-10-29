@@ -12,6 +12,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         assert(buttons.count == 16, "Invalid nib")
+        buttons.sortInPlace { a, b in
+            a.titleLabel!.text! < b.titleLabel!.text!
+        }
     }
 
     override func didReceiveMemoryWarning() {
