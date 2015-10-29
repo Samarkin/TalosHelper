@@ -4,7 +4,7 @@ private let hexAttributes: [String : AnyObject] = [
     NSForegroundColorAttributeName : UIColor.blueColor()
 ]
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var textField: UITextField!
     @IBOutlet var buttons: [UIButton]!
@@ -34,6 +34,18 @@ class ViewController: UIViewController {
         let text = NSMutableAttributedString(string: decodedText)
         text.appendAttributedString(hex)
         textField.attributedText = text
+    }
+
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        return false
+    }
+
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        currentHex = 0
+        hexCharacters = 0
+        decodedText = ""
+        refreshText()
+        return false
     }
 
     @IBAction func buttonClick(sender: UIButton) {
