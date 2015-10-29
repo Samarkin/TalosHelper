@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64836A31BE1E25E00DF53E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64836A21BE1E25E00DF53E8 /* AppDelegate.swift */; };
+		A64836A51BE1E25E00DF53E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64836A41BE1E25E00DF53E8 /* ViewController.swift */; };
+		A64836A81BE1E25E00DF53E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64836A61BE1E25E00DF53E8 /* Main.storyboard */; };
+		A64836AA1BE1E25E00DF53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64836A91BE1E25E00DF53E8 /* Assets.xcassets */; };
+		A64836AD1BE1E25E00DF53E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64836AB1BE1E25E00DF53E8 /* LaunchScreen.storyboard */; };
+		A64836B81BE1E25E00DF53E8 /* TalosHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64836B71BE1E25E00DF53E8 /* TalosHelperTests.swift */; };
+		A64836C31BE1E25E00DF53E8 /* TalosHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64836C21BE1E25E00DF53E8 /* TalosHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A64836B41BE1E25E00DF53E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64836971BE1E25E00DF53E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A648369E1BE1E25E00DF53E8;
+			remoteInfo = TalosHelper;
+		};
+		A64836BF1BE1E25E00DF53E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64836971BE1E25E00DF53E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A648369E1BE1E25E00DF53E8;
+			remoteInfo = TalosHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A648369F1BE1E25E00DF53E8 /* TalosHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalosHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64836A21BE1E25E00DF53E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A64836A41BE1E25E00DF53E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A64836A71BE1E25E00DF53E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A64836A91BE1E25E00DF53E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64836AC1BE1E25E00DF53E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A64836AE1BE1E25E00DF53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64836B31BE1E25E00DF53E8 /* TalosHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalosHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64836B71BE1E25E00DF53E8 /* TalosHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalosHelperTests.swift; sourceTree = "<group>"; };
+		A64836B91BE1E25E00DF53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64836BE1BE1E25E00DF53E8 /* TalosHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalosHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64836C21BE1E25E00DF53E8 /* TalosHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalosHelperUITests.swift; sourceTree = "<group>"; };
+		A64836C41BE1E25E00DF53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A648369C1BE1E25E00DF53E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836B01BE1E25E00DF53E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836BB1BE1E25E00DF53E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64836961BE1E25E00DF53E8 = {
+			isa = PBXGroup;
+			children = (
+				A64836A11BE1E25E00DF53E8 /* TalosHelper */,
+				A64836B61BE1E25E00DF53E8 /* TalosHelperTests */,
+				A64836C11BE1E25E00DF53E8 /* TalosHelperUITests */,
+				A64836A01BE1E25E00DF53E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64836A01BE1E25E00DF53E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A648369F1BE1E25E00DF53E8 /* TalosHelper.app */,
+				A64836B31BE1E25E00DF53E8 /* TalosHelperTests.xctest */,
+				A64836BE1BE1E25E00DF53E8 /* TalosHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64836A11BE1E25E00DF53E8 /* TalosHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A64836A21BE1E25E00DF53E8 /* AppDelegate.swift */,
+				A64836A41BE1E25E00DF53E8 /* ViewController.swift */,
+				A64836A61BE1E25E00DF53E8 /* Main.storyboard */,
+				A64836A91BE1E25E00DF53E8 /* Assets.xcassets */,
+				A64836AB1BE1E25E00DF53E8 /* LaunchScreen.storyboard */,
+				A64836AE1BE1E25E00DF53E8 /* Info.plist */,
+			);
+			path = TalosHelper;
+			sourceTree = "<group>";
+		};
+		A64836B61BE1E25E00DF53E8 /* TalosHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A64836B71BE1E25E00DF53E8 /* TalosHelperTests.swift */,
+				A64836B91BE1E25E00DF53E8 /* Info.plist */,
+			);
+			path = TalosHelperTests;
+			sourceTree = "<group>";
+		};
+		A64836C11BE1E25E00DF53E8 /* TalosHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A64836C21BE1E25E00DF53E8 /* TalosHelperUITests.swift */,
+				A64836C41BE1E25E00DF53E8 /* Info.plist */,
+			);
+			path = TalosHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A648369E1BE1E25E00DF53E8 /* TalosHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64836C71BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelper" */;
+			buildPhases = (
+				A648369B1BE1E25E00DF53E8 /* Sources */,
+				A648369C1BE1E25E00DF53E8 /* Frameworks */,
+				A648369D1BE1E25E00DF53E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalosHelper;
+			productName = TalosHelper;
+			productReference = A648369F1BE1E25E00DF53E8 /* TalosHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A64836B21BE1E25E00DF53E8 /* TalosHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64836CA1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperTests" */;
+			buildPhases = (
+				A64836AF1BE1E25E00DF53E8 /* Sources */,
+				A64836B01BE1E25E00DF53E8 /* Frameworks */,
+				A64836B11BE1E25E00DF53E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64836B51BE1E25E00DF53E8 /* PBXTargetDependency */,
+			);
+			name = TalosHelperTests;
+			productName = TalosHelperTests;
+			productReference = A64836B31BE1E25E00DF53E8 /* TalosHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A64836BD1BE1E25E00DF53E8 /* TalosHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64836CD1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperUITests" */;
+			buildPhases = (
+				A64836BA1BE1E25E00DF53E8 /* Sources */,
+				A64836BB1BE1E25E00DF53E8 /* Frameworks */,
+				A64836BC1BE1E25E00DF53E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64836C01BE1E25E00DF53E8 /* PBXTargetDependency */,
+			);
+			name = TalosHelperUITests;
+			productName = TalosHelperUITests;
+			productReference = A64836BE1BE1E25E00DF53E8 /* TalosHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64836971BE1E25E00DF53E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pavel Samarkin";
+				TargetAttributes = {
+					A648369E1BE1E25E00DF53E8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V8M8BJ4NS7;
+					};
+					A64836B21BE1E25E00DF53E8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V8M8BJ4NS7;
+						TestTargetID = A648369E1BE1E25E00DF53E8;
+					};
+					A64836BD1BE1E25E00DF53E8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V8M8BJ4NS7;
+						TestTargetID = A648369E1BE1E25E00DF53E8;
+					};
+				};
+			};
+			buildConfigurationList = A648369A1BE1E25E00DF53E8 /* Build configuration list for PBXProject "TalosHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64836961BE1E25E00DF53E8;
+			productRefGroup = A64836A01BE1E25E00DF53E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A648369E1BE1E25E00DF53E8 /* TalosHelper */,
+				A64836B21BE1E25E00DF53E8 /* TalosHelperTests */,
+				A64836BD1BE1E25E00DF53E8 /* TalosHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A648369D1BE1E25E00DF53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64836AD1BE1E25E00DF53E8 /* LaunchScreen.storyboard in Resources */,
+				A64836AA1BE1E25E00DF53E8 /* Assets.xcassets in Resources */,
+				A64836A81BE1E25E00DF53E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836B11BE1E25E00DF53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836BC1BE1E25E00DF53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A648369B1BE1E25E00DF53E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64836A51BE1E25E00DF53E8 /* ViewController.swift in Sources */,
+				A64836A31BE1E25E00DF53E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836AF1BE1E25E00DF53E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64836B81BE1E25E00DF53E8 /* TalosHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64836BA1BE1E25E00DF53E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64836C31BE1E25E00DF53E8 /* TalosHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A64836B51BE1E25E00DF53E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A648369E1BE1E25E00DF53E8 /* TalosHelper */;
+			targetProxy = A64836B41BE1E25E00DF53E8 /* PBXContainerItemProxy */;
+		};
+		A64836C01BE1E25E00DF53E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A648369E1BE1E25E00DF53E8 /* TalosHelper */;
+			targetProxy = A64836BF1BE1E25E00DF53E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A64836A61BE1E25E00DF53E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64836A71BE1E25E00DF53E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A64836AB1BE1E25E00DF53E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64836AC1BE1E25E00DF53E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64836C51BE1E25E00DF53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A64836C61BE1E25E00DF53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64836C81BE1E25E00DF53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalosHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A64836C91BE1E25E00DF53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalosHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A64836CB1BE1E25E00DF53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalosHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalosHelper.app/TalosHelper";
+			};
+			name = Debug;
+		};
+		A64836CC1BE1E25E00DF53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalosHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalosHelper.app/TalosHelper";
+			};
+			name = Release;
+		};
+		A64836CE1BE1E25E00DF53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TalosHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalosHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A64836CF1BE1E25E00DF53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TalosHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarkin.TalosHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalosHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A648369A1BE1E25E00DF53E8 /* Build configuration list for PBXProject "TalosHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64836C51BE1E25E00DF53E8 /* Debug */,
+				A64836C61BE1E25E00DF53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64836C71BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64836C81BE1E25E00DF53E8 /* Debug */,
+				A64836C91BE1E25E00DF53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64836CA1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64836CB1BE1E25E00DF53E8 /* Debug */,
+				A64836CC1BE1E25E00DF53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64836CD1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64836CE1BE1E25E00DF53E8 /* Debug */,
+				A64836CF1BE1E25E00DF53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64836971BE1E25E00DF53E8 /* Project object */;
+}
