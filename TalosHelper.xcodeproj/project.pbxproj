@@ -485,6 +485,7 @@
 				A64836C91BE1E25E00DF53E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A64836CA1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +494,7 @@
 				A64836CC1BE1E25E00DF53E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A64836CD1BE1E25E00DF53E8 /* Build configuration list for PBXNativeTarget "TalosHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +503,7 @@
 				A64836CF1BE1E25E00DF53E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
